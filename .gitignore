@@ -1,0 +1,73 @@
+# Ignore Frigate Ollama Realtime work files (photos/videos)
+frigate-ollama-realtime/prompts/work/
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+*.pyd
+*.pdb
+*.sqlite3
+*.db
+*.log
+*.pot
+*.mo
+*.env
+.env*
+.venv/
+venv/
+ENV/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Docker
+*.pid
+*.pid.lock
+
+# Frigate specific
+storage/
+exports/
+config/model_cache/
+
+# Logs
+*.log
+logs/
+
+# Other
+*.bak
+*.swp
+*.tmp
+
+# Ignore secrets
+config/config.env
+
+# Ignore backup configs
+config/backup_config.yaml
+
+# Ignore unnecessary config files
+config/.exports
+config/.jwt_secret
+config/.search_stats.json
+config/.timeline
+config/.vacuum
+
+.exports
+.jwt_secret
+.search_stats.json
+.timeline
+.vacuum
