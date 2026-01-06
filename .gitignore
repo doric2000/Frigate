@@ -71,3 +71,6 @@ config/.vacuum
 .search_stats.json
 .timeline
 .vacuum
+frigate-ollama-realtime/work/
+frigate-ollama-realtime/out/
+config/frigate.db*
